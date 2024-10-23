@@ -1,0 +1,8 @@
+tqdm
+p_tqdm
+shapely
+imgaug
+albumentations
+mmengine
+mmcv-full==1.7.1
+mmdet==2.28.2
