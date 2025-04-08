@@ -1,6 +1,26 @@
+## Our paper is now available!
+You can access it [here](https://ieeexplore.ieee.org/document/10954269).😊
+```
+@ARTICLE{10954269,
+  author={Liu, Binhui and Ling, Qiang},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={Sparse LaneFormer: End-to-End Lane Detection With Sparse Proposals and Interactions}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Lane detection;Feature extraction;Proposals;Decoding;Pedestrians;Object detection;Accuracy;Transformers;Polynomials;Annotations;End-to-end lane detection;sparse design;lane aware query;transformer;deformable attention},
+  doi={10.1109/TITS.2025.3555220}}
+```
 # Sparse LaneFormer
 This repo is the PyTorch implementation for Sparse LaneFormer.
+** Our paper is now available  [here](https://ieeexplore.ieee.org/document/10954269).**
+Sparse LaneFormer
 
+
+
+
+Note:If the link doesn't work,please check the URL's validity or try accessing it again later.Sometimes network issues can cause problems.
 ![Sparse LaneFormer](SparseLaneFormer.png)
 We propose a fully sparse end-to-end lane detection framework called Sparse LaneFormer, which incorporates both sparse proposals and interactions. Specifically, we introduce a Lane Aware Query (LAQ) as sparse lane proposals, which can predict learnable and explicit lane positions. Additionally, we introduce  a Lane Token Selector (LTS) and a Linear Deformable Sampler (LDS) to establish sparse interactions among lane tokens. The LTS selectively updates sparse lane tokens in the encoder, while in the decoder, LDS extracts discriminative lane representations from global feature maps by sampling lane features along the LAQ. By focusing on the most informative tokens, Sparse LaneFormer achieves state-of-the-art performance with only 10\% of encoder tokens, resulting in an 80\% reduction in overall computational cost compared to its dense counterpart. 
 
